@@ -28,33 +28,31 @@ Para ejecutar esta aplicación, necesitarás instalar las siguientes herramienta
 
 ## 🚀Instalación
 
-1. **Instala el Flutter SDK:**
-
-   Sigue las instrucciones en la [documentación oficial de Flutter](https://flutter.dev/docs/get-started/install) para instalar el SDK adecuado para tu sistema operativo.
-
-2. **Instala Android Studio:**
-
-   Descarga e instala [Android Studio](https://developer.android.com/studio). Asegúrate de instalar el plugin de Flutter desde el marketplace de plugins de Android Studio.
-
-3. **Configura un Emulador de Android:**
-
-   - Abre Android Studio.
-   - Ve a `AVD Manager` (Android Virtual Device).
-   - Crea un nuevo dispositivo virtual seleccionando un dispositivo y una imagen del sistema (recomiendo usar una imagen de Google API).
-   - Inicia el emulador.
-
-## 🔧Configuración
-
 1. **Clonar el Repositorio**
 
-   Clona este repositorio del proyecto desde GitHub:
+   Clona este repositorio en tu máquina local:
 
    ```bash
    git clone https://github.com/MateoRamirezRubio1/flutter-app-to-crud-products.git
+   ```
+
+2. **Navega al directorio del proyecto:**
+
+   ```bash
    cd flutter-app-to-crud-products
    ```
 
-2. **Crea un Archivo `.env`:**
+3. **Instala las dependencias de Flutter:**
+
+   Asegúrate de que todas las dependencias estén instaladas ejecutando:
+
+    ```bash
+   flutter pub get
+    ```
+
+## 🔧Configuración
+
+1. **Crea un Archivo `.env`:**
 
    En el directorio raíz del proyecto, crea un archivo `.env` con el siguiente contenido:
 
@@ -66,22 +64,23 @@ Para ejecutar esta aplicación, necesitarás instalar las siguientes herramienta
 
 ## 🏃‍♂Ejecutar la Aplicación
 
-1. **Instalar Dependencias:**
+Para ejecutar la aplicación en un emulador de Android o en un dispositivo físico:
 
-   Asegúrate de que todas las dependencias estén instaladas ejecutando:
+1. **Abre Android Studio y asegúrate de tener un emulador configurado o un dispositivo conectado y ejecutandose.**
 
-    ```bash
-   flutter pub get
-    ```
-
-2. **Ejecutar la Aplicación en Modo Release:**
-
-   Para ejecutar la aplicación en modo producción (release), usa el siguiente comando:
+2. **Lista los dispositivos disponibles:**
 
     ```bash
-   flutter run --release
+   flutter devices
     ```
 
+3. **Ejecuta la aplicación en el dispositivo o emulador deseado**
+
+    ```bash
+   flutter run --release -d <device_id>
+    ```
+
+   Reemplaza <device_id> con el ID del dispositivo o emulador que aparece en la lista de dispositivos disponibles.
    Esto compilará la aplicación para producción, optimizando el rendimiento.
 
 ## 📂Estructura del Proyecto
