@@ -1,0 +1,36 @@
+# Flutter/Dart specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-deps
+.packages
+pubspec.lock
+build/
+*.log
+
+# Android specific
+.android/
+*.apk
+*.ap_ 
+
+# iOS specific
+ios/Flutter/Flutter.framework
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.podspec
+ios/Podfile.lock
+ios/Podfile
+ios/Podfile.lock
+ios/Pods/
+ios/.dart_tool/
+
+# IDE-specific
+.idea/
+.vscode/
+*.iml
+
+# Other
+*.sublime-workspace
+*.sublime-project
+
+# Archivos de entorno
+.env
