@@ -4,6 +4,9 @@
 
 Esta aplicación está diseñada para interactuar con una API RESTful de backend y está destinada a fines de práctica y demostración. Para obtener detalles sobre la API y cómo funciona el backend, por favor consulta el [repositorio del backend](https://github.com/MateoRamirezRubio1/back_crud_products) y sigue los pasos propuestos ahí para poder disfrutar de la app completa.
 
+## Demostración app funcional conectada con el Backend nodejs
+https://github.com/user-attachments/assets/8e6ec2e0-b3b3-4771-baf1-c0f8242a9a1b
+
 ## 📝 Contenido
 
 - [Descripción](#descripción)
